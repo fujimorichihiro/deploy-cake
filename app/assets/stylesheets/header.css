@@ -1,0 +1,311 @@
+/*ヘッダー*/
+
+.header-box{
+	position: relative;
+    top: 0px;                   /* 位置(上0px) */
+    left: 0px;                  /* 位置(右0px) */
+    width: 100%;                /* 横幅100%　*/
+    height: 80px;             /* 縦幅140px */
+    z-index: 4;
+}
+
+.header-TOP{
+    position: fixed;            /* ヘッダーの固定 */
+    top: 0px;                   /* 位置(上0px) */
+    left: 0px;                  /* 位置(右0px) */
+    width: 100%;                /* 横幅100%　*/
+    height: 80px;             /* 縦幅140px */
+    z-index: 4;
+}
+
+.bkRGBA{
+  /* 背景画像の透過用css */
+  height: 100%;
+  transform-origin: top left;
+  transform:scale(" + nRit + ");
+}
+
+.search{
+	height: 100%;
+	width:15%;
+}
+
+
+.nav {
+	width: 100%;
+}
+.navigation {
+	width: 100%;
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+.navigation li {
+	text-decoration: none;
+}
+.navigation li:nth-child(2n+1) {
+	width: 1px;
+	border: 1px solid white;
+	background-color: white;
+}
+.navigation li a {
+	color: #EEF5DB;
+}
+.navigation li a:hover {
+	color: #333745;
+}
+.pink {
+ 	background-color: #E63462;
+ }
+.cream-sentence {
+ 	color: #EEF5DB;
+ }
+
+ /*test用css*/
+ .products-box {
+ 	width: 100%;
+ }
+ .products-box {
+ 	display: flex;
+ 	flex-wrap: wrap;
+/* 	justify-content: space-between;*/
+ }
+ .product-box {
+ 	width: 250px;
+ 	padding: 0 50px;
+ }
+ .product-image {
+ 	width: 200px;
+ 	height: 200px;
+ 	background-color: url(no_image_lg.jpg);
+ 	background-size: cover;
+ 	background-position:center;
+ }
+
+.m-top16 {
+	margin-top: 16px;
+}
+.pink-line {
+	width: 100%;
+	height: 2px;
+	background-color: #E63462;
+}
+
+
+
+.font12 {
+	font-size: 12px;
+	color: white;
+}
+
+
+.cart {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.mypage {
+	position: absolute;
+	right: 200px;
+	top: 20px;
+}
+.login-out {
+	position: absolute;
+	right: 100px;
+	top: 20px;
+}
+.search {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+.home {
+	position: absolute;
+	left: 300px;
+	top: 20px;
+}
+.products {
+	position: absolute;
+	left: 400px;
+	top: 20px;
+}
+.registration {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.flex {
+	display: flex;
+}
+.b-line {
+	width: 100%;
+	height: 1px;
+	background-color: gray;
+}
+
+.image-box {
+	position: relative;
+}
+.hover-box {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.hover-box:hover {
+    background-color: rgba(50,50,50,0.2);
+}
+
+
+.logo{
+	  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top:0;
+
+}
+
+.category {
+	position: absolute;
+	right: 120px;
+	top: 20px;
+}
+.member {
+	position: absolute;
+	right: 400px;
+	top: 20px;
+}
+
+.order {
+	position: absolute;
+	right: 260px;
+	top: 20px;
+}
+
+.soldout {
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	position: absolute;
+	left: -35px;
+	top: -35px;
+	background-color: red;
+	color: white;
+	line-height: 70px;
+}
+
+/*about*/
+
+
+
+/* ---------------------------- */
+/* --- ハンバーガーアイコン --- */
+/* ---------------------------- */
+ 
+ 
+#hm-icon{
+  position: absolute;
+  left: 150px;
+  top: 20px;
+  z-index: 10;
+}
+ 
+.menu-trigger,
+.menu-trigger span {
+  display: inline-block;
+  transition: all .4s;
+  box-sizing: border-box;
+}
+ 
+.menu-trigger {
+  position: relative;
+  width: 110px;
+  height: 38px;
+}
+ 
+
+ 
+
+ 
+ 
+/* ------------------------ */
+/* ------ spメニュー ------ */
+/* ------------------------ */
+ 
+ 
+#sp-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  color: #fff;
+  width: 100%;
+  min-height: 100%;
+  display: none;
+  z-index: 9;
+  text-align: center;
+  background-image: url("about2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+#sp-menu li{
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+ 
+#sp-menu a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin:0 auto;
+}
+
+#sp-main{
+ margin-top:100px;
+ height:500px;
+ background-color: white;
+ opacity: 0.5;
+ color: #000;
+}
+
+#sp-head {
+  padding-top:50px;
+}
+
+#sp-text{
+  padding-top: 50px;
+}
+
+.truck {
+	font-size: 200px;
+	color: red;
+}
+
+.completation {
+	width: 100%;
+	text-align: center;
+}
+
+
+.header3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(20,20,20,0.2);
+	width: 100%;
+	height: 60px;
+}
+.top-image {
+	background-image: url(tarttop.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+}
+.header3-box {
+	position: relative;
+}
