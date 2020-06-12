@@ -23,7 +23,7 @@ gem 'dotenv-rails'
 gem 'bootstrap', '~> 4.1.1'
 gem 'jp_prefecture'
 
-gem 'faker', '2.1.2' #faker追加
+ #faker追加
 
 # ------------------------------------------------------------
 
@@ -50,6 +50,7 @@ group :development, :test do
   gem 'capistrano3-puma'
   gem 'capistrano-rbenv'
   gem 'sqlite3'
+  gem 'faker', '2.1.2'
 end
 
 group :development do
